@@ -1,0 +1,5 @@
+* "best.pt" is the output(model) of out training
+
+* Which is renamed and used as ppe.pt in the project as model
+
+* "data.yml" contains the meta data like class, and training flow. Change the path in data.yml accordingly
