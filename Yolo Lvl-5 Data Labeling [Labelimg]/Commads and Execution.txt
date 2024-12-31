@@ -1,0 +1,50 @@
+python -m venv myvenv
+myvenv\Scripts\activate
+pip install labelimg
+pip install setuptools
+labelimg
+
+
+In Application :
+1) Open Directory [Select Image Directory]
+2) Change to Yolo [which is below to "Save" as "PascalVOC" or "CreateML"]
+3) Create RectBox and enter the Class Name[Click that and box the object]
+4) Save by Ctrl + S and save annotation in Same Folder itself
+
+
+******************************************Change to avoid errors*****************************************
+
+
+**Incase any float error occur change drawLine and drawRect in "[canva.py]" with int = > 
+[Find these two parts in code and change this]
+if self.drawing() and not self.prev_point.isNull() and not self.out_of_pixmap(self.prev_point):
+    p.setPen(QColor(0, 0, 0))
+    p.drawLine(int(self.prev_point.x()), 0, int(self.prev_point.x()), self.pixmap.height())
+    p.drawLine(0, int(self.prev_point.y()), self.pixmap.width(), int(self.prev_point.y()))
+
+
+
+p.drawRect(int(left_top.x()), int(left_top.y()), int(rect_width), int(rect_height))
+
+
+"[labelImg.py]" : change to int
+def set_zoom(self, value):
+    self.zoom_widget.setValue(int(value))
+
+def add_zoom(self, increment):
+    self.set_zoom(int(self.zoom_widget.value() + increment))
+
+
+    # Cast new values to int before setting
+    h_bar.setValue(int(new_h_bar_value))
+    v_bar.setValue(int(new_v_bar_value))
+
+
+
+def scroll_request(self, delta, orientation):
+    units = - delta / (8 * 15)
+    bar = self.scroll_bars[orientation]
+    
+    # Cast the computed value to int before passing to setValue
+    new_value = bar.value() + bar.singleStep() * units
+    bar.setValue(int(new_value))

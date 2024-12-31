@@ -1,0 +1,15 @@
+/Data
+    ├── train/
+    │   ├── images/
+    │   │   ├── 1.jpg
+    │   │   └── 2.jpg
+    │   ├── labels/
+    │       ├── 1.txt
+    │       └── 2.txt
+    ├── valid/
+    │   ├── images/
+    │   └── labels/
+    ├── test/
+    │   ├── images/
+    │   └── labels/
+    └── data.yaml

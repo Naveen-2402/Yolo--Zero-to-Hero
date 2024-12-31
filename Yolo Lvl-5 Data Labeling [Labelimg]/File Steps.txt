@@ -1,0 +1,9 @@
+/Raw [Only Photos]
+/Annotations [Save Photo + annotation]
+/Data [training format and required]
+
+
+Annotations are created by labelImg
+image name should match Annotation name
+Example : [abc.jpg = abc.txt]
+
