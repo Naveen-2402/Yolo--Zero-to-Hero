@@ -1,0 +1,12 @@
+python -m venv myvenv
+myvenv\Scripts\activate
+pip install labelme
+labelme
+
+
+In Application :
+1) Open Directory [Select Image Directory]
+2) Click Create Polygons and map the polygons and enter the className for the object
+4) Save by Ctrl + S and save annotation in Same Folder itself
+5) In Last convert .json Annotation file to .txt file (Yolo only supports .txt)
+6) Use .py code to convert json to txt, execute .py using .ipynb by setting the path
