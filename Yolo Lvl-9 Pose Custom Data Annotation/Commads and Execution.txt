@@ -1,0 +1,22 @@
+https://www.cvat.ai/
+
+In Application :
+1) Create New Project => with project name & label name [class]
+2) Create "New Task" for project with any name and upload the images
+4) Go to "Task Section", Click Open. In that Select "Job"
+5) In the Image tab, "select Draw new points" option, select "class" and no of "key points". Should maintain order of key points for all images
+
+Key Point Definition:
+"A keypoint refers to a specific, important point on an object or a body that helps to represent its shape, position, or structure. In the context of YOLO Pose (or pose estimation models), keypoints are the notable points on a human body that define its posture. For example:
+
+Head (top of the head)
+Shoulders
+Elbows
+Wrists
+Hips
+Knees
+Ankles
+These keypoints are used to understand and estimate the pose of a person by analyzing the positions and relationships between these points. In object detection, keypoints help to recognize, track, or describe an object more accurately"
+
+6) After Markin The Points, Draw the bounding box around the object
+7) Go to task Section again, click action select export format "CVAT"

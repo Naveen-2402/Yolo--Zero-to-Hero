@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1117552</id>
+      <name>quadruped-keypoint-detection-001</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-12-31 10:30:13.808805+00:00</created>
+      <updated>2024-12-31 11:36:06.850018+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1910264</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/1907798</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>mr156</username>
+        <email></email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>quadruped</name>
+          <color>#338f34</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2024-12-31 12:09:53.796187+00:00</dumped>
+  </meta>
+  <image id="0" name="antelope_10014.jpg" width="1024" height="768">
+    <box label="quadruped" source="manual" occluded="0" xtl="190.76" ytl="132.31" xbr="872.79" ybr="622.16" z_order="0">
+    </box>
+    <points label="quadruped" source="manual" occluded="0" points="857.06,262.26;852.42,271.54;837.35,273.86;832.71,266.90;799.08,215.87;808.36,217.03;823.43,265.74;759.65,199.64;777.05,188.04;784.00,179.92;786.32,186.88;788.64,156.73;811.84,152.09;763.13,239.07;743.41,250.67;671.05,278.50;633.48,267.36;491.53,254.84;520.76,331.38;533.28,313.29;594.51,400.96;619.56,402.35;659.92,426.01;672.44,540.12;569.46,577.70;576.42,471.93;449.78,566.56;373.24,477.50;384.38,428.79;242.43,567.95;282.79,456.62;356.54,399.57;338.45,380.09;324.54,309.11;341.24,285.46;414.99,267.36;555.55,270.15;559.72,314.68;406.64,307.72" z_order="0">
+    </points>
+  </image>
+</annotations>

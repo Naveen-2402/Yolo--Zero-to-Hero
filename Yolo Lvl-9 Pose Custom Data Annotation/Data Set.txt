@@ -1,0 +1,3 @@
+https://cvml.ist.ac.at/AwA2/
+
+https://github.com/prinik/AwA-Pose
