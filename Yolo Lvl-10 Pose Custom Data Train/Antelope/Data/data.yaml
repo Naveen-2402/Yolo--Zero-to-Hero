@@ -1,0 +1,8 @@
+path: ../drive/MyDrive/Antelope
+train: ../images/train
+val: ../images/val
+
+kpt_shape: [39, 3]
+
+names:
+    0: antelope
